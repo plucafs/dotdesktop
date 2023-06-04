@@ -1,5 +1,3 @@
-<p style="text-align: center;">Welcome (^^)/</p>
-
 # dotdesktop
 A .desktop files CLI generator
 
