@@ -1,5 +1,5 @@
 # dotdesktop
-A .desktop files CLI generator
+A .desktop file CLI generator
 
 ## Build and run
 ```
