@@ -48,7 +48,7 @@ MimeType=;
 Actions=
 GenericName=
 
-A godot.desktop file will be created inside /home/your_username/.local/share/applications/. Proceed? Type y or n
+A godot.desktop file will be created inside /home/username/.local/share/applications/. Proceed? Type y or n
 y
 Saving godot.desktop...
 The file already exists!
