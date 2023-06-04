@@ -54,3 +54,13 @@ Saving godot.desktop...
 The file already exists!
 .: Thank you for having used dotdesktop (^^)/ :.
 ```
+
+```
+# optional:
+
+# move the executable inside /usr/local/bin
+$ sudo mv ./dotdesktop /usr/local/bin
+
+# create an alias
+$ alias dod='dotdesktop'
+```
