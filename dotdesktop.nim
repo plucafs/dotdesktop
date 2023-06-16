@@ -43,9 +43,9 @@ proc dotdesktop() =
     exec = fmt"{name}"
   stdout.styledWriteLine(fgGreen, fmt">>> {exec}")
 
-  var icon: string = readLineFromStdin(fmt"Icon: ({name}) ").strip()
+  var icon: string = readLineFromStdin(fmt"Icon: ({name.toLower()}) ").strip()
   if icon.len() == 0:
-    icon = fmt"{name}"
+    icon = fmt"{name.toLower()}"
   stdout.styledWriteLine(fgGreen, fmt">>> {icon}")
 
   let mime: string = readLineFromStdin(fmt"Mime: ").strip()
